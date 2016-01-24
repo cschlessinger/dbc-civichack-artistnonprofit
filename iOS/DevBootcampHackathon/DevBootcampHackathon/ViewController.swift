@@ -8,14 +8,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,ImagePickerDelegate {
 
-  @IBOutlet weak var lblHello: UILabel!
+var arrCat = ["Senior","Homeless","Children","Animals"]
+var arrCatNum = ["109","230","59","90"]
+
+  @IBOutlet weak var table: UITableView!
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     
-    self.lblHello.text = "Fuck you"
+    
   }
 
   override func didReceiveMemoryWarning() {
@@ -23,6 +27,64 @@ class ViewController: UIViewController {
     // Dispose of any resources that can be recreated.
   }
 
+}
 
+  extension ViewController: UITableViewDataSource
+{
+  func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+  {
+    return arrCat.count
+  }
+  
+  func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+  {
+    var cell = tableView.dequeueReusableCellWithIdentifier("cell") as! TableViewCell!
+    if !(cell != nil)
+    {
+      cell = TableViewCell(style:.Default, reuseIdentifier: "cell")
+    }
+    
+    let imgvName = arrCat[indexPath.row] + ".jpg"
+    
+    // setup cell without force unwrapping it
+    cell.lblName.text = arrCat[indexPath.row]
+    cell.lblNumber.text = arrCatNum[indexPath.row]
+    cell.imgvCat.image = UIImage(named: imgvName)
+    
+    return cell
+  }
+  
+  func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath)
+  {
+   print(indexPath.row)
+    self.performSegueWithIdentifier("selected", sender: self)
+  }
+    
+    
+    func wrapperDidPress(images: [UIImage])
+    {
+      self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    func doneButtonDidPress(images: [UIImage])
+    {
+      self.dismissViewControllerAnimated(true, completion: nil)
+
+    }
+    func cancelButtonDidPress()
+    {
+      self.dismissViewControllerAnimated(true, completion: nil)
+
+    }
+
+    @IBAction func butCamera(sender: AnyObject)
+    {
+      let imagePickerController = ImagePickerController()
+      imagePickerController.delegate = self
+      presentViewController(imagePickerController, animated: true, completion: nil)
+    }
+    
+    
+    
+    
 }
 
