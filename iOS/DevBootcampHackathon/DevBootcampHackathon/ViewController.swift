@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController,ImagePickerDelegate {
 
 var arrCat = ["Senior","Homeless","Children","Animals"]
 var arrCatNum = ["109","230","59","90"]
@@ -59,5 +59,32 @@ var arrCatNum = ["109","230","59","90"]
    print(indexPath.row)
     self.performSegueWithIdentifier("selected", sender: self)
   }
+    
+    
+    func wrapperDidPress(images: [UIImage])
+    {
+      self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    func doneButtonDidPress(images: [UIImage])
+    {
+      self.dismissViewControllerAnimated(true, completion: nil)
+
+    }
+    func cancelButtonDidPress()
+    {
+      self.dismissViewControllerAnimated(true, completion: nil)
+
+    }
+
+    @IBAction func butCamera(sender: AnyObject)
+    {
+      let imagePickerController = ImagePickerController()
+      imagePickerController.delegate = self
+      presentViewController(imagePickerController, animated: true, completion: nil)
+    }
+    
+    
+    
+    
 }
 

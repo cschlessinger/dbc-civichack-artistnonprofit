@@ -30,6 +30,20 @@
 		C28F606C1C54829E00E74DF4 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = C28F60691C54829E00E74DF4 /* Profile.png */; };
 		C28F606D1C54829E00E74DF4 /* Profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C28F606A1C54829E00E74DF4 /* Profile@2x.png */; };
 		C28F606E1C54829E00E74DF4 /* Profile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C28F606B1C54829E00E74DF4 /* Profile@3x.png */; };
+		C2C367D01C5484E5005EFBF2 /* BottomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367BF1C5484E5005EFBF2 /* BottomContainerView.swift */; };
+		C2C367D11C5484E5005EFBF2 /* ButtonPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367C01C5484E5005EFBF2 /* ButtonPicker.swift */; };
+		C2C367D21C5484E5005EFBF2 /* ImageStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367C11C5484E5005EFBF2 /* ImageStack.swift */; };
+		C2C367D31C5484E5005EFBF2 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367C21C5484E5005EFBF2 /* StackView.swift */; };
+		C2C367D41C5484E5005EFBF2 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367C41C5484E5005EFBF2 /* CameraView.swift */; };
+		C2C367D51C5484E5005EFBF2 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367C51C5484E5005EFBF2 /* Configuration.swift */; };
+		C2C367D61C5484E5005EFBF2 /* ConstraintsSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367C71C5484E5005EFBF2 /* ConstraintsSetup.swift */; };
+		C2C367D71C5484E5005EFBF2 /* ImageGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367C91C5484E5005EFBF2 /* ImageGalleryView.swift */; };
+		C2C367D81C5484E5005EFBF2 /* ImageGalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367CA1C5484E5005EFBF2 /* ImageGalleryViewCell.swift */; };
+		C2C367D91C5484E5005EFBF2 /* ImageGalleryViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367CB1C5484E5005EFBF2 /* ImageGalleryViewDataSource.swift */; };
+		C2C367DA1C5484E5005EFBF2 /* ImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367CC1C5484E5005EFBF2 /* ImagePickerController.swift */; };
+		C2C367DB1C5484E5005EFBF2 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367CD1C5484E5005EFBF2 /* Photos.swift */; };
+		C2C367DC1C5484E5005EFBF2 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367CF1C5484E5005EFBF2 /* TopView.swift */; };
+		C2C367DE1C5486C5005EFBF2 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C367DD1C5486C5005EFBF2 /* UserViewController.swift */; };
 		C2D487E11C54077E000FF6ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D487E01C54077E000FF6ED /* AppDelegate.swift */; };
 		C2D487E31C54077E000FF6ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D487E21C54077E000FF6ED /* ViewController.swift */; };
 		C2D487E61C54077E000FF6ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D487E41C54077E000FF6ED /* Main.storyboard */; };
@@ -89,6 +103,20 @@
 		C28F60691C54829E00E74DF4 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
 		C28F606A1C54829E00E74DF4 /* Profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile@2x.png"; sourceTree = "<group>"; };
 		C28F606B1C54829E00E74DF4 /* Profile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile@3x.png"; sourceTree = "<group>"; };
+		C2C367BF1C5484E5005EFBF2 /* BottomContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomContainerView.swift; sourceTree = "<group>"; };
+		C2C367C01C5484E5005EFBF2 /* ButtonPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonPicker.swift; sourceTree = "<group>"; };
+		C2C367C11C5484E5005EFBF2 /* ImageStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStack.swift; sourceTree = "<group>"; };
+		C2C367C21C5484E5005EFBF2 /* StackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		C2C367C41C5484E5005EFBF2 /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		C2C367C51C5484E5005EFBF2 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		C2C367C71C5484E5005EFBF2 /* ConstraintsSetup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintsSetup.swift; sourceTree = "<group>"; };
+		C2C367C91C5484E5005EFBF2 /* ImageGalleryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryView.swift; sourceTree = "<group>"; };
+		C2C367CA1C5484E5005EFBF2 /* ImageGalleryViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewCell.swift; sourceTree = "<group>"; };
+		C2C367CB1C5484E5005EFBF2 /* ImageGalleryViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGalleryViewDataSource.swift; sourceTree = "<group>"; };
+		C2C367CC1C5484E5005EFBF2 /* ImagePickerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePickerController.swift; sourceTree = "<group>"; };
+		C2C367CD1C5484E5005EFBF2 /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		C2C367CF1C5484E5005EFBF2 /* TopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		C2C367DD1C5486C5005EFBF2 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 		C2D487DD1C54077E000FF6ED /* DevBootcampHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevBootcampHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D487E01C54077E000FF6ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D487E21C54077E000FF6ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +166,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C2C367BD1C5484E5005EFBF2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				C2C367BE1C5484E5005EFBF2 /* BottomView */,
+				C2C367C31C5484E5005EFBF2 /* CameraView */,
+				C2C367C51C5484E5005EFBF2 /* Configuration.swift */,
+				C2C367C61C5484E5005EFBF2 /* Extensions */,
+				C2C367C81C5484E5005EFBF2 /* ImageGallery */,
+				C2C367CC1C5484E5005EFBF2 /* ImagePickerController.swift */,
+				C2C367CD1C5484E5005EFBF2 /* Photos.swift */,
+				C2C367CE1C5484E5005EFBF2 /* TopView */,
+			);
+			name = Source;
+			path = images/Source;
+			sourceTree = "<group>";
+		};
+		C2C367BE1C5484E5005EFBF2 /* BottomView */ = {
+			isa = PBXGroup;
+			children = (
+				C2C367BF1C5484E5005EFBF2 /* BottomContainerView.swift */,
+				C2C367C01C5484E5005EFBF2 /* ButtonPicker.swift */,
+				C2C367C11C5484E5005EFBF2 /* ImageStack.swift */,
+				C2C367C21C5484E5005EFBF2 /* StackView.swift */,
+			);
+			path = BottomView;
+			sourceTree = "<group>";
+		};
+		C2C367C31C5484E5005EFBF2 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				C2C367C41C5484E5005EFBF2 /* CameraView.swift */,
+			);
+			path = CameraView;
+			sourceTree = "<group>";
+		};
+		C2C367C61C5484E5005EFBF2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C2C367C71C5484E5005EFBF2 /* ConstraintsSetup.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C2C367C81C5484E5005EFBF2 /* ImageGallery */ = {
+			isa = PBXGroup;
+			children = (
+				C2C367C91C5484E5005EFBF2 /* ImageGalleryView.swift */,
+				C2C367CA1C5484E5005EFBF2 /* ImageGalleryViewCell.swift */,
+				C2C367CB1C5484E5005EFBF2 /* ImageGalleryViewDataSource.swift */,
+			);
+			path = ImageGallery;
+			sourceTree = "<group>";
+		};
+		C2C367CE1C5484E5005EFBF2 /* TopView */ = {
+			isa = PBXGroup;
+			children = (
+				C2C367CF1C5484E5005EFBF2 /* TopView.swift */,
+			);
+			path = TopView;
+			sourceTree = "<group>";
+		};
 		C2D487D41C54077E000FF6ED = {
 			isa = PBXGroup;
 			children = (
@@ -161,9 +250,11 @@
 		C2D487DF1C54077E000FF6ED /* DevBootcampHackathon */ = {
 			isa = PBXGroup;
 			children = (
+				C2C367BD1C5484E5005EFBF2 /* Source */,
 				C2D488101C54554A000FF6ED /* images */,
 				C2D487E01C54077E000FF6ED /* AppDelegate.swift */,
 				C2D487E21C54077E000FF6ED /* ViewController.swift */,
+				C2C367DD1C5486C5005EFBF2 /* UserViewController.swift */,
 				C28F60611C5471B700E74DF4 /* DetailViewController.swift */,
 				C2D487E41C54077E000FF6ED /* Main.storyboard */,
 				C2D4881F1C545703000FF6ED /* TableViewCell.swift */,
@@ -392,9 +483,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D488201C545703000FF6ED /* TableViewCell.swift in Sources */,
+				C2C367DE1C5486C5005EFBF2 /* UserViewController.swift in Sources */,
 				C2D487E31C54077E000FF6ED /* ViewController.swift in Sources */,
+				C2C367D01C5484E5005EFBF2 /* BottomContainerView.swift in Sources */,
+				C2C367D71C5484E5005EFBF2 /* ImageGalleryView.swift in Sources */,
+				C2C367DB1C5484E5005EFBF2 /* Photos.swift in Sources */,
+				C2C367D41C5484E5005EFBF2 /* CameraView.swift in Sources */,
+				C2C367D31C5484E5005EFBF2 /* StackView.swift in Sources */,
+				C2C367DC1C5484E5005EFBF2 /* TopView.swift in Sources */,
+				C2C367D91C5484E5005EFBF2 /* ImageGalleryViewDataSource.swift in Sources */,
+				C2C367DA1C5484E5005EFBF2 /* ImagePickerController.swift in Sources */,
 				C2D487E11C54077E000FF6ED /* AppDelegate.swift in Sources */,
+				C2C367D51C5484E5005EFBF2 /* Configuration.swift in Sources */,
+				C2C367D21C5484E5005EFBF2 /* ImageStack.swift in Sources */,
+				C2C367D61C5484E5005EFBF2 /* ConstraintsSetup.swift in Sources */,
 				C28F60621C5471B700E74DF4 /* DetailViewController.swift in Sources */,
+				C2C367D11C5484E5005EFBF2 /* ButtonPicker.swift in Sources */,
+				C2C367D81C5484E5005EFBF2 /* ImageGalleryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

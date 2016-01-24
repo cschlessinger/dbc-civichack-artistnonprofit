@@ -103,6 +103,13 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="MPj-YM-3IF"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FCy-yV-lXJ">
+                                <rect key="frame" x="181" y="682" width="53" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="butCamera:" destination="BYZ-38-t0r" eventType="touchUpInside" id="paD-g6-ymG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -234,7 +241,7 @@ holistic services.</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bitmap.png" id="iH5-v6-ZkH">
-                                        <rect key="frame" x="1" y="-27" width="414" height="197"/>
+                                        <rect key="frame" x="1" y="0.0" width="414" height="170"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Homeless Connect" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="boy-Q2-ifx">
@@ -289,6 +296,13 @@ was superficial.</string>
                                         <rect key="frame" x="0.0" y="587" width="414" height="65"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="6Xt-4Y-cq3">
+                                        <rect key="frame" x="182" y="597" width="53" height="54"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="butCamera:" destination="G3m-bc-pTQ" eventType="touchUpInside" id="qXM-zR-eaF"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.14901960784313725" green="0.14117647058823529" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
@@ -328,18 +342,14 @@ was superficial.</string>
             </objects>
             <point key="canvasLocation" x="645" y="373"/>
         </scene>
-        <!--View Controller-->
+        <!--User View Controller-->
         <scene sceneID="yAb-PM-ZGs">
             <objects>
-                <viewController id="GSm-ba-nAD" sceneMemberID="viewController">
+                <viewController id="GSm-ba-nAD" customClass="UserViewController" customModule="DevBootcampHackathon" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LTO-rh-bwn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile.png" id="DzF-mu-V7W">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Ol1-u3-Xad">
                                 <rect key="frame" x="15" y="682" width="53" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -347,6 +357,17 @@ was superficial.</string>
                                     <segue destination="kfy-t5-UeX" kind="modal" animates="NO" modalTransitionStyle="coverVertical" id="qXY-lY-9ri"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="arN-we-9A2">
+                                <rect key="frame" x="181" y="682" width="53" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="butCamera:" destination="GSm-ba-nAD" eventType="touchUpInside" id="NOc-Zy-OOt"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile.png" id="DzF-mu-V7W">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.14901960780000001" green="0.14117647059999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -368,6 +389,6 @@ was superficial.</string>
         <image name="Tap Bar 5.png" width="640" height="101"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="zHr-A4-xGd"/>
+        <segue reference="tkO-il-hIV"/>
     </inferredMetricsTieBreakers>
 </document>

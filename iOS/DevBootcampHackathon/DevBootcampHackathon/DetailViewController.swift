@@ -8,7 +8,7 @@
 
 import UIKit
 import MapKit
-class DetailViewController: UIViewController {
+class DetailViewController: UIViewController,ImagePickerDelegate {
 
   @IBOutlet weak var lblMap: UILabel!
   @IBOutlet weak var map: MKMapView!
@@ -233,6 +233,28 @@ class DetailViewController: UIViewController {
     }
   }
 
+  
+  func wrapperDidPress(images: [UIImage])
+  {
+    self.dismissViewControllerAnimated(true, completion: nil)
+  }
+  func doneButtonDidPress(images: [UIImage])
+  {
+    self.dismissViewControllerAnimated(true, completion: nil)
+    
+  }
+  func cancelButtonDidPress()
+  {
+    self.dismissViewControllerAnimated(true, completion: nil)
+    
+  }
+  
+  @IBAction func butCamera(sender: AnyObject)
+  {
+    let imagePickerController = ImagePickerController()
+    imagePickerController.delegate = self
+    presentViewController(imagePickerController, animated: true, completion: nil)
+  }
     /*
     // MARK: - Navigation
 
